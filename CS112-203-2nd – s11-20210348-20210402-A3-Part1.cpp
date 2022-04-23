@@ -275,7 +275,11 @@ void invert(){
 
 
 void merge(){
-
+	for (int row = 0; row < size; ++row) {
+		for (int col = 0; col < size; ++col) {
+			image[row][col] = (image[row][col] + image2[row][col]) / 2;
+		}
+	}
 }
 
 void flip(){
