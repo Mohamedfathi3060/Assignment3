@@ -1,4 +1,4 @@
-// FCAI – Programming 1 – 2022 - Assignment 3
+// FCAI ï¿½ Programming 1 ï¿½ 2022 - Assignment 3
 // Program Name: PHOTOSHOP..cpp
 // Last Modification Date: 4/19/2022
 // Author1 and ID and Group: Moaz adly afify, 20210402, s11-s12
@@ -628,6 +628,7 @@ void action() {
     int q,w,e,r;
     cout << "enter the order of quarters: ";
     cin >> q>>w>>e>>r;
+    // spacify the four parts of the image
     for (int i = 0; i < SIZE/2; i++ ) {
         for (int j = 0; j < SIZE / 2; j++) {
             image1[i][j] = image[i][j];
@@ -648,6 +649,7 @@ void action() {
             image4[z][x] =  image[i][j];
         }
     }
+    // make the order of the image as the user has chosen
     for (int i = 0; i < SIZE/2 ; i++) {
         for (int j = 0; j < SIZE/2 ; j++) {
             if (q==1)
