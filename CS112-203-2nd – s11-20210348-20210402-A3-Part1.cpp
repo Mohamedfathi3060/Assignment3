@@ -168,7 +168,7 @@ else if (choice == '6'){
 	saveImage();
 }
 else if (choice == '7'){
-	 detect();
+	 detect();		// to check if choice = 7 ;
 	 saveImage_2();
 }
 else if (choice == '8'){
